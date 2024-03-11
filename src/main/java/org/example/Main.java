@@ -27,6 +27,8 @@ public class Main {
         System.out.println("Max speed "+car2.maxSpeed);
         System.out.println("Fuel Level "+car2.fuelLevel);
         System.out.println("Damage "+car2.damaged);
+        double distanceForCar1=carReference.accelerate(60,1);
+        double distanceForCar2=car2.accelerate(100,1);
         //System.out.println("");
 
     }
